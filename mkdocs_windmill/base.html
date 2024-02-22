@@ -152,7 +152,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   {%- endblock %}
 
   {%- if config.copyright %}<p>{{ config.copyright }}</p>{%- endif %}
-  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+  <p>
+    {% if page and page.title and not page.is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}
+  </p>
 {%- endblock %}
 </footer>
 

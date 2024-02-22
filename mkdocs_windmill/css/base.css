@@ -7,7 +7,7 @@ body {
  ***********************************************************************/
 
 .navbar {
-  background-color: #546e7a;
+  background-color: #708090;
   box-shadow: 0 1.5px 3px rgba(0,0,0,.24), 0 3px 8px rgba(0,0,0,.05);
   border: none;
   border-radius: 0px;
@@ -42,7 +42,7 @@ body {
 }
 
 .wm-top-link, .wm-top-link:hover, .wm-top-link:active, .wm-top-link:visited, .wm-top-link:focus {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
@@ -70,10 +70,10 @@ body {
 }
 
 .wm-top-version {
-  border: 1px solid #ddd;
+  border: 1px solid #efefef;
   border-radius: 3px;
-  padding: 0px 5px;
-  color: #ddd;
+  padding: 3px 5px;
+  color: #efefef;
   font-size: 8pt;
 }
 
@@ -87,7 +87,7 @@ body {
   right: 0px;
   padding: inherit;
   width: 100%;
-  background-color: #546e7a;
+  background-color: #708090;
 }
 
 .wm-top-search {
@@ -220,7 +220,7 @@ body {
 }
 
 .wm-toctree a, .wm-toctree a:visited, .wm-toctree a:hover, .wm-toctree a:focus {
-  color: #546e7a;
+  color: #708090;
   text-decoration: none;
   outline: none;
 }
@@ -263,8 +263,8 @@ body {
 }
 
 .wm-toc-li.wm-current, .wm-toc-li.wm-current:hover {
-  background-color: #546e7a;
-  color: white;
+  background-color: #708090;
+  color: black;
 }
 
 .wm-toc-li:hover {
@@ -272,14 +272,14 @@ body {
 }
 
 .wm-toc-li.wm-current a {
-  color: white;
+  color: black;
 }
 
 .wm-toc-li-nested.wm-page-toc {
   font-size: 1.2rem;
   line-height: 1.2rem;
   overflow: hidden;
-  border-left: 1px solid #546e7a;
+  border-left: 1px solid #708090;
 }
 
 .wm-page-toc-opener > .wm-toc-text::after {
@@ -330,7 +330,7 @@ body {
   display: inline-block;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #fff;
+  background-color: #efefef;
   border: 1px solid #ddd;
   border-radius: 4px;
   margin: 20px auto 30px auto;
@@ -344,7 +344,7 @@ body {
   display: inline-block;
   max-width: 48%;
   white-space: nowrap;
-  color: #546e7a;
+  color: #708090;
   text-align: right;
 }
 
@@ -357,7 +357,7 @@ body {
 }
 
 .wm-article-nav > a, .wm-article-nav > a:visited, .wm-article-nav > a:hover, .wm-article-nav > a:focus {
-  color: #546e7a;
+  color: #708090;
   text-decoration: none;
   outline: none;
 }
